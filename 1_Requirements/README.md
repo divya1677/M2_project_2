@@ -14,18 +14,22 @@ Here, we developed an electronic code lock system using 8051 microcontroller (a 
 
 This system demonstrates a Password based Door Lock System using 8051 Microcontroller, wherein once the correct code or password is entered, the door is opened and the concerned person is allowed access to the secured area. Again, if another person arrives, it will ask to enter the password. If the password is wrong, then door would remain closed, denying access to the person.
 
-Hardware Requirements
+1)Hardware Requirements
 
 * 8051 Microcontroller
 * 8051 Development Board
 * 8051 Programmer
 * 4×4 Matrix Keypad
-16×2 LCD
-L293D Motor Driver Board
-DC Motor
-10KΩ Potentiometer
-Connecting wires
-Power Supply
+* 16×2 LCD
+* L293D Motor Driver Board
+* DC Motor
+* 10KΩ Potentiometer
+* Connecting wires
+* Power Supply
+
+2)Software Requirements 
+* SIMULIDE
+
 Strengths: Innovative, User-friendly.
 
 Weakness: If you forget the password it is not possible to open the door.
