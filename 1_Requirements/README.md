@@ -16,10 +16,10 @@ This system demonstrates a Password based Door Lock System using 8051 Microcontr
 
 Hardware Requirements
 
-#/8051 Microcontroller#/
-8051 Development Board
-8051 Programmer
-4×4 Matrix Keypad
+*8051 Microcontroller
+*8051 Development Board
+*8051 Programmer
+*4×4 Matrix Keypad
 16×2 LCD
 L293D Motor Driver Board
 DC Motor
