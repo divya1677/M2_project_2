@@ -52,9 +52,11 @@ Hardware Requirements:
 9. Sounder
 10. Power
 11. Ground
+
 SIMULIDE DESIGN
 ![schematic diagram](https://user-images.githubusercontent.com/94949861/164611613-e7c97381-bfe2-43a8-9479-c6cb6fb16244.png)
 Description and Working of Components: 
+
 Reset Circuit Design: The reset pin of the microcontroller is kept active till the power supply is in the 
 specified range and a minimum oscillation level is maintained. In other words to ensure the supply 
 voltage does not falls below the threshold level of 1.2V.
@@ -90,6 +92,7 @@ with the pre-defined password. If it is correct password, the system opens the d
 motor and display the status of the door on LCD. If the password is wrong then door remain closed and 
 display message to the user and trigger a Sounder. We used Proteus-8 for circuit simulation purpose 
 and Keil-5 for Micro-C code
+
 Algorithm: 
 1. START 
 2. initialize LCD, keypad 
@@ -109,6 +112,8 @@ Algorithm:
 7.2 Buzz Sounder
 7.3. go to step 4 
 8. STOP
+
+
 Advantage: 
 1. Pick-proof: Because there is no place for a key with these locks, the prevent break-ins because 
 burglars are unable to pick or ‘bump’ the lock. Criminal’s methods of breaking and entering are 
@@ -126,12 +131,15 @@ professional. At The Workplace Depot, we sell mechanical digital door locks in a
 colors, brass, chrome and satin chrome.
 5. Perfect for the elderly or disabled: The extra investment into a door lock could bring massive 
 advantages to those who are unable to get to the door quickly and/or who struggle with keys
+
+
 Disadvantage: 
 1. Forgetful
 2. Keep the PIN code safe and the lock clean
 3. Power Failure
 4. Limit the PIN Code Length
 But all these above disadvantages can be overcome by advancement in this technology.
+
 Future Scope: 
 1. Door can be open sung separate password for different users
 2. Allow Password Recovery option
