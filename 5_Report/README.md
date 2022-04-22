@@ -54,7 +54,8 @@ Hardware Requirements:
 11. Ground
 
 SIMULIDE DESIGN
-![schematic diagram](https://user-images.githubusercontent.com/94949861/164611613-e7c97381-bfe2-43a8-9479-c6cb6fb16244.png)
+![design1](https://user-images.githubusercontent.com/94949861/164617121-5955e8af-7536-487e-8ee1-a018d6fcb6b5.png)
+
 Description and Working of Components: 
 
 Reset Circuit Design: The reset pin of the microcontroller is kept active till the power supply is in the 
