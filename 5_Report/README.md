@@ -13,6 +13,7 @@ Contents:
 *  Code Explanation
 *  Advantage and Disadvantage
 *  Future scope
+
 Introduction: 
 A digital thermometer is used to verify a smart temperature transmitter under flowing conditions and a successful calibration of the smart temperature transmitter. Portable electronic thermometers (PETs) are designed to measure temperature in a RTD-type thermowell using a thermistor or RTD probe.The thermometer should be approved for use in hazardous locations, Class 1, Groups C and D. The thermometer should be furnished with suitably coated probe cables at least 6 inches long. The digital display should be easily read in direct sunlight and equipped with a backlight (optional) for night operations. 
 
