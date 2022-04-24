@@ -1,42 +1,46 @@
-                                      Password Based Door Lock System using 8051 Microcontroller
+                                      Digital Thermometer using 8051 Microcontroller
 
-Password Based Door Lock System using 8051 Microcontroller is a simple project where a secure password will act as a door unlocking system. 
+Digital Thermometer using 8051 Microcontroller is a simple project where temperature is diplayed in digital form. 
 
-Traditional lock systems using mechanical lock and key mechanism are being replaced by new advanced techniques of locking system.
+Traditional systems were confusing
 
-These techniques are an integration of mechanical and electronic devices and are highly intelligent. One of the prominent features of these innovative lock systems is their simplicity and high efficiency.
+These techniques are an integration of mechanical and electronic devices and are highly intelligent. One of the prominent features of these DIGITAL THERMOMETER is their simplicity and high efficiency.
 
-Such an automatic lock system consists of electronic control assembly, which controls the output load through a password. 
+Here, we developed an 
+Digital thermometer using 8051 microcontroller (Sometimes people find it difficult to read temperature from analog thermometer because of fluctuations SO THIS DEVICE MAKES EASIER TO READ TEMPERATURE)
+* ADVANTAGES OF USING DIGITAL THERMOMETER
 
-This output load can be a motor or a lamp or any other mechanical/electrical load.
-
-Here, we developed an electronic code lock system using 8051 microcontroller (a Password based Door Lock System using 8051 Microcontroller), which provides control to the actuating the load. It is a simple embedded system with input from the keyboard and the output being actuated accordingly.
-
-This system demonstrates a Password based Door Lock System using 8051 Microcontroller, wherein once the correct code or password is entered, the door is opened and the concerned person is allowed access to the secured area. Again, if another person arrives, it will ask to enter the password. If the password is wrong, then door would remain closed, denying access to the person.
+1)Temperatures may be read quickly and accurately using digital thermometers.
+2)They're small and portable, and you can even keep the thermometer in your backpack.
+3)It's simple to read the display.
+4)A digital thermometer is reasonably priced.
+5)They do not need any particular care.  
 
 1)Hardware Requirements
 
-* 8051 Microcontroller
-* 8051 Development Board
-* 8051 Programmer
-* 4×4 Matrix Keypad
-* 16×2 LCD
-* L293D Motor Driver Board
-* DC Motor
-* 10KΩ Potentiometer
-* Connecting wires
-* Power Supply
+* Components Required:                          
+* 8051 MICRO CONTROLLER
+* 16*2 LCD display
+* VOLTAGE SOURCE
+
+
 
 2)Software Requirements 
 * SIMULIDE
+* MICROCHIP STUDIO OR KEIL 
 
 Strengths: Innovative, User-friendly.
+           Temperatures may be read quickly 
+           They're small and portable, 
+           It's simple to read the display.
+           A digital thermometer is reasonably priced.
+           They do not need any particular care.
 
-Weakness: If you forget the password it is not possible to open the door.
-          It is a low range circuit, i.e. it is not possible to operate the circuit remotely.
+Weakness: Digital thermometers have the disadvantage of having dead batteries.
+          Submerging a conventional thermometer in warm, soapy water is simple, but doing it with a digital thermometer is more complicated.
+          
+Opportunities:This project provides innovative way for displaying temperature
 
-Opportunities:This project provides security
+Where: MEDICAL,MARINE
 
-Where: School, Science, domestic, industries, Technology
-
-When:FOR SECURITY PURPOSE
+When : Measuring temperature
