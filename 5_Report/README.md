@@ -83,14 +83,21 @@ In electronics and electrical engineering, it is by convention we define a point
 
 * ADVANTAGES:
 1. Temperatures may be read quickly and accurately using digital thermometers.
-2.They're small and portable, and you can even keep the thermometer in your backpack.
-3.It's simple to read the display.
-4.A digital thermometer is reasonably priced.
-5.They do not need any particular care.
+2. 
+3.They're small and portable, and you can even keep the thermometer in your backpack.
+
+4.It's simple to read the display.
+
+5.A digital thermometer is reasonably priced.
+
+6.They do not need any particular care.
+
 
 * Disadvantages: 
 1.Digital thermometers have the disadvantage of having dead batteries.
+
 2.Submerging a conventional thermometer in warm, soapy water is simple, but doing it with a digital thermometer is more complicated.
+
 3.Some digital thermometers are more accurate than others.
 
 FUTURE SCOPE
