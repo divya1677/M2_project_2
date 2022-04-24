@@ -1,4 +1,4 @@
-                                  Project Tittle: Password based door lock system using 8051/PIC microcontroller
+                                  Project Tittle:  Digital Thermometer Using 8051 Microcontroller
 Contents: 
 
 *  Introduction
@@ -14,136 +14,81 @@ Contents:
 *  Advantage and Disadvantage
 *  Future scope
 Introduction: 
-Nowadays most of the systems are automated in order to face new challenges and present day 
-requirements to achieve good results. Automated systems have less manual operations, so that the 
-flexibility, reliabilities are high and accurate. Hence the importance of a low cost electronic home 
-security system designed in co-ordination with other security measure is always there in our society to 
-reduce the risk of home intrusion.
+A digital thermometer is used to verify a smart temperature transmitter under flowing conditions and a successful calibration of the smart temperature transmitter. Portable electronic thermometers (PETs) are designed to measure temperature in a RTD-type thermowell using a thermistor or RTD probe.The thermometer should be approved for use in hazardous locations, Class 1, Groups C and D. The thermometer should be furnished with suitably coated probe cables at least 6 inches long. The digital display should be easily read in direct sunlight and equipped with a backlight (optional) for night operations. 
+
+There are various different kinds of modern digital thermometer sensors, among the most common of which is a type called a ‘resistance temperature detector’ (RTD). This sort of thermometer works on the principle that the electrical resistance of metal changes with temperature.
+
+What are digital thermometers used for?
+
+Digital thermometers offer an extremely wide range of uses in day-to-day professional and home applications. They provide accuracy and speed of temperature reading in almost any situation that a traditional thermometer would do, as well as being ideally suited to a great many scenarios in which liquid-in-glass versions would be unsuitable.
+
+* APPLICATIONS OF DIGITAL THERMOMETER
+* Food probe digital thermometers
+To ensure thorough and even cooking, food probe thermometers need to be accurate, and to offer quickly repeatable temperature readings in multiple different areas of food undergoing production or preparation. They must be hygienic and easily sanitised between uses to prevent bacteria build-up or transfer, and often include colour-coding options to help with this.
+
+* Industrial digital thermometers
+Products intended for industrial use tend to be more ruggedly constructed and suitable for use in a range of potentially challenging or hazardous environments. They may be designed to fit with multiple different probe types, including thermistors and thermocouples, and will often include additional features such as countdown timers, rubberised IP-rated housings, backlit displays and non-sparking material constructions.
+
+* Central heating and HVAC digital thermometers
+HVAC and central heating applications are one of the most common industrial and engineering environments in which digital thermometers are routinely used. HVAC digital thermometers are most commonly used to measure air, water, copper line and refrigerant temperatures, and must be extremely accurate as a single degree change can lead to compliance failures or equipment damage.
+* Scientific digital thermometers
+
+* Types of digital thermometers
+1)Digital thermometers for cars and autos
+2)Differential digital thermometers
+3)Wall-mounted digital thermometers
+4)Wireless digital thermometers
+
 Project Objective: 
-The main objective of designing this password based door lock system is to provide many modern 
-security features than mechanical lock and utilize our understanding in micro controller and Assembly 
-Language learned through CSE331(Microprocessor Interfacing and Embedded System). Our other 
-objective is to utilize different electronic parts available in the market and build an integrated home 
-security system based on ICS, Microcontroller and LCD screen. We tried to build this project in order to 
-obtain these goals:
-*  To develop a unique safety system through micro controllers.
-*  Unlock the door just by pressing pre-defined password through keypad.
-*  Increase the security level to prevent unauthorized access and increase flexibility of 
-user.
-*  To give user more secure yet cos-efficient way of door locking-unlock system. 
-Principle Behind The Circuit: 
-The main component in the circuit is 8051 controller. In this project 4×3 keypad is used to enter the 
-password. The password which is entered is compared with the predefined password.
-If the entered password is correct then the system opens the door by rotating door motor and displays 
-the status of door on LCD. If the password is wrong then door is remain closed and a sound alarm is 
-triggered and displays “Password is wrong” on LCD.
-Block Diagram:
-![blockdiagram](https://user-images.githubusercontent.com/94949861/164611501-815e9b29-cbda-475e-a3eb-9a8169113532.png)
+people find it difficult to read temperature from analog thermometer because of fluctuations. So here we are going to build a simple Digital thermometer using 8051 microcontroller 
+
+we are trying to obtain these goals from this project
+* Temperatures may be read quickly and accurately using digital thermometers.
+* It's simple to read the display.
+* BLOCK DIAGRAM
+![Block-diagram-of-Digital-Thermometer](https://user-images.githubusercontent.com/94949861/164987128-8aaf270d-ab2f-4de1-bb7a-8134326e7ee0.png)
 
 Hardware Requirements: 
-1. 80C51 Microcontroller
-2. Programming cable
-3. 4 * 3 Matrix Keypad
-4. 16 *2 LCD
-5. DC Motor
-6. Capacitor
-7. Crystal
-8. L293D-Push-Pull Four Chanel Driver with Diodes
-9. Sounder
-10. Power
-11. Ground
+1. 8051 Microcontroller
+2. 16 *2 LCD
+3. Capacitor
+4. Voltage source
+5. Clock
+6. Fixed voltage
+7. Electrolytic capacitor
+8. Ground
 
 SIMULIDE DESIGN
-![design1](https://user-images.githubusercontent.com/94949861/164617121-5955e8af-7536-487e-8ee1-a018d6fcb6b5.png)
+![SCHEMATIC DIAGRAM OF THERMOMETER](https://user-images.githubusercontent.com/94949861/164987270-832f70e4-d1f3-4257-af96-c5cfca1777da.jpg)
+DESCRIPTION OF COMPONENTS
+* MICROCONTROLLER
+8051 microcontroller is a 8 bit microcontroller which has 128 bytes of on chip RAM , 4K bytes of on chip ROM, two timers, one serial port and four 8bit ports. 8052 microcontroller is an extension of microcontroller. The table below shows the comparison of 8051 family members.
 
-Description and Working of Components: 
+* 16x2 LCD:
+16*2 LCD is a widely used display for embedded applications. Here is the brief explanation about pins and working of 16*2 LCD display. There are two very important registers inside the LCD. They are data register and command register. Command register is used to send commands such as clear display, cursor at home etc., data register is used to send data which is to be displayed on 16*2 LCD. 
+ * CAPACITOR
+ A capacitor is a device that stores electrical energy in an electric field. It is a passive electronic component with two terminals.
 
-Reset Circuit Design: The reset pin of the microcontroller is kept active till the power supply is in the 
-specified range and a minimum oscillation level is maintained. In other words to ensure the supply 
-voltage does not falls below the threshold level of 1.2V.
-Oscillator Circuit Design: A crystal oscillator is used to provide external clock signal to the 
-microcontroller. To ensure smooth operation, we connect two ceramic capacitors ranges from 20pF to 
-40pF. This crystal oscillator is connected between pin 18 and 19 of the microcontroller.
-L.C.D: Here we are using a 16x2 L.C.D which is a dot matrix Liquid Crystal Display. Its function is to 
-display the alphanumeric symbols to indicate the status message of the circuit. This L.C.D can display the 
-two lines and each line contains 16 characters. This L.C.D contains an internal oscillator circuit to work in 
-synchronization with the controller. Data pins of LCD is connected to port P2 from P2.0-P2.7 describing 
-the current status of system and three control pins RS, RW and E are connected to port P3 from P3.4-
-P3.6 respectively.
-D.C Motor Drive: It is a machine used to convert the electrical energy into mechanical energy. This D.C 
-motor uses a 12V battery as an input through a Switching Relay and rotate to open the door or to lock 
-the door. To interface this D.C motor drive with the Micro Controller we use an L293D I.C. Dc motor is 
-connected to port P3 from P3.0-P3.1 via a relay circuitry.
-4x3 Matrix Keyboard: This keyboard contains a numbers of switches arranged in a matrix format. Each 
-rows and each column are connected to the pins of micro controller. This keyboard contains numbers 
-from 0 to 9, a ‘*’ button and a ‘#’ button. These switches are generally a numbers of push buttons. With 
-the help of this Keyboard an individual can enter the password to unlock the door. 4x3 keypad is 
-connected to port P1 from P1.0-P1.6 allowing user to enter user id.
-Buzzer or any Alarming Circuit: This is a piezoelectric material which converts the electrical signals into 
-the mechanical Vibrations. This vibration amplified into a Buzzing sound which will indicate that the 
-entered password is incorrect. Buzzer is connected to Port P1.7.
-Hardware and Software Applications: 
-The main idea behind this project is of a door-latch opening using a password entered through keypad. 
-As well as turning on the Buzzer when Password is entered wrong for multiple time. User can unlock the 
-door using pre-defined passcode. When a user try to unlock the door using wrong passcode a message 
-as well as a buzzer will be triggered. The door will automatically open when only passcode is matched. 
-The main component in the circuit is 8051 micro controller which is basically used to send and accept 
-text message from user. 4*3 Keypad is used to enter the password. The entered password is compared 
-with the pre-defined password. If it is correct password, the system opens the door by rotating servo 
-motor and display the status of the door on LCD. If the password is wrong then door remain closed and 
-display message to the user and trigger a Sounder. We used Proteus-8 for circuit simulation purpose 
-and Keil-5 for Micro-C code
+* CLOCK
+ In electronics and especially synchronous digital circuits, a clock signal (historically also known as logic beat) oscillates between a high and a low state and is used like a metronome to coordinate actions of digital circuits. A clock signal is produced by a clock generator.
 
-Algorithm: 
-1. START 
-2. initialize LCD, keypad 
-3. clear LCD 
-4. print “Door is Locked ” on LCD 
-5. print “Enter Password: ” on LCD 
-5. get 5 char long password using matrix key pad 
-6. if input = “54321” then
-6.1 print “Password is Correct” on LCD
-6.2 print “Door is Opening” on LCD
-6.3 Open Door
-6.4 print “Door is Closing” on LCD
-6.5 Close Door
-6.5 go to step 4
-7. else
-7.1 print “Wrong Password” on LCD
-7.2 Buzz Sounder
-7.3. go to step 4 
-8. STOP
+* FIXED VOLTAGE
+ A fixed voltage type is a variable voltage type that integrates the external resistor.
 
+* GROUND
+In electronics and electrical engineering, it is by convention we define a point in a circuit as a reference point. This reference point is known as ground (or GND) and carries a voltage of 0V.
 
-Advantage: 
-1. Pick-proof: Because there is no place for a key with these locks, the prevent break-ins because 
-burglars are unable to pick or ‘bump’ the lock. Criminal’s methods of breaking and entering are 
-improving and the majority of criminals can pick an ordinary key lock.
-2. NO MORE KEYS: You won’t have to carry around a large set of keys and they will be less likely to 
-be lost or stolen. Also, if you are a landlord, you don’t have to give residents keys or replace 
-them if they lose them.
-3. Control: In a company building, you can control and restrict who goes into what part of the 
-building. Also residents and landlords of apartments and flat, can control who can enter their 
-room with one PIN code and it reduces the risk of anything getting stolen. It is incredibly easy to 
-change the PIN code whenever you like. The combination door lock from The Workplace Depot 
-have over 8,000 possible code combinations with a simple code change facility.
-4. Aesthetically Pleasing: Door locks can come in a range of stylish colors that look smart and 
-professional. At The Workplace Depot, we sell mechanical digital door locks in a choice of 3 
-colors, brass, chrome and satin chrome.
-5. Perfect for the elderly or disabled: The extra investment into a door lock could bring massive 
-advantages to those who are unable to get to the door quickly and/or who struggle with keys
+* ADVANTAGES:
+1. Temperatures may be read quickly and accurately using digital thermometers.
+2.They're small and portable, and you can even keep the thermometer in your backpack.
+3.It's simple to read the display.
+4.A digital thermometer is reasonably priced.
+5.They do not need any particular care.
 
+* Disadvantage: 
+1.Digital thermometers have the disadvantage of having dead batteries.
+2.Submerging a conventional thermometer in warm, soapy water is simple, but doing it with a digital thermometer is more complicated.
+3.Some digital thermometers are more accurate than others.
 
-Disadvantage: 
-1. Forgetful
-2. Keep the PIN code safe and the lock clean
-3. Power Failure
-4. Limit the PIN Code Length
-But all these above disadvantages can be overcome by advancement in this technology.
-
-Future Scope: 
-1. Door can be open sung separate password for different users
-2. Allow Password Recovery option
-3. Store log records of entered user
-4. Instead of sounding Buzzer a notification will be sent to owner
-
+FUTURE SCOPE
+The global Digital Thermometers market is anticipated to rise at a considerable rate during the forecast period 2021 to 2027. In 2021,
