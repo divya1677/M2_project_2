@@ -93,13 +93,13 @@ In electronics and electrical engineering, it is by convention we define a point
 6.They do not need any particular care.
 
 
-* Disadvantages: 
+* DISADVANTAGES: 
 1.Digital thermometers have the disadvantage of having dead batteries.
 
 2.Submerging a conventional thermometer in warm, soapy water is simple, but doing it with a digital thermometer is more complicated.
 
 3.Some digital thermometers are more accurate than others.
 
-FUTURE SCOPE
+FUTURE SCOPE:
 
 The global Digital Thermometers market is anticipated to rise at a considerable rate during the forecast period 2021 to 2027. In 2021,
