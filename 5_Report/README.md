@@ -83,7 +83,7 @@ In electronics and electrical engineering, it is by convention we define a point
 
 * ADVANTAGES:
 
-  1. Temperatures may be read quickly and accurately using digital thermometers.
+  1.Temperatures may be read quickly and accurately using digital thermometers.
  
   2.They're small and portable, and you can even keep the thermometer in your backpack.
 
@@ -106,4 +106,6 @@ FUTURE SCOPE:
 
 The global Digital Thermometers market is anticipated to rise at a considerable rate during the forecast period 2021 to 2027. In 2021,
 
-Conclusion: The Digital Thermometer that we made is working properly with a good accuracy.
+CONCLUSION:
+
+The Digital Thermometer that we made is working properly with a good accuracy.
