@@ -105,3 +105,5 @@ In electronics and electrical engineering, it is by convention we define a point
 FUTURE SCOPE:
 
 The global Digital Thermometers market is anticipated to rise at a considerable rate during the forecast period 2021 to 2027. In 2021,
+
+Conclusion: The Digital Thermometer that we made is working properly with a good accuracy.
