@@ -82,23 +82,23 @@ DESCRIPTION OF COMPONENTS
 In electronics and electrical engineering, it is by convention we define a point in a circuit as a reference point. This reference point is known as ground (or GND) and carries a voltage of 0V.
 
 * ADVANTAGES:
-1. Temperatures may be read quickly and accurately using digital thermometers.
-2. 
-3.They're small and portable, and you can even keep the thermometer in your backpack.
+  1. Temperatures may be read quickly and accurately using digital thermometers.
+ 
+  2.They're small and portable, and you can even keep the thermometer in your backpack.
 
-4.It's simple to read the display.
+  3.It's simple to read the display.
 
-5.A digital thermometer is reasonably priced.
+  4.A digital thermometer is reasonably priced.
 
-6.They do not need any particular care.
+  5.They do not need any particular care.
 
 
 * DISADVANTAGES: 
-1.Digital thermometers have the disadvantage of having dead batteries.
+  1.Digital thermometers have the disadvantage of having dead batteries.
 
-2.Submerging a conventional thermometer in warm, soapy water is simple, but doing it with a digital thermometer is more complicated.
+  2.Submerging a conventional thermometer in warm, soapy water is simple, but doing it with a digital thermometer is more complicated.
 
-3.Some digital thermometers are more accurate than others.
+  3.Some digital thermometers are more accurate than others.
 
 FUTURE SCOPE:
 
