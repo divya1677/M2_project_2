@@ -9,6 +9,9 @@ What are digital thermometers used for?
 
 Digital thermometers offer an extremely wide range of uses in day-to-day professional and home applications. They provide accuracy and speed of temperature reading in almost any situation that a traditional thermometer would do, as well as being ideally suited to a great many scenarios in which liquid-in-glass versions would be unsuitable.
 
+A digital thermometer is used to verify a smart temperature transmitter under flowing conditions and a successful calibration of the smart temperature transmitter. Portable electronic thermometers (PETs) are designed to measure temperature in a RTD-type thermowell using a thermistor or RTD probe. The thermometer should be approved for use in hazardous locations, Class 1, Groups C and D. The thermometer should be furnished with suitably coated probe cables at least 6 inches long. The digital display should be easily read in direct sunlight and equipped with a backlight (optional) for night operations. The display shall have a resolution to at least XX.XX°F.
+
+The PET should be compared to a certified partial immersion thermometer on a daily basis at room temperature to ensure the performance at the start of each workday. A log of the daily verifications associated with each PET should be keep to provide an audit trail and ensure accuracy of the portable device. If the error at any point exceeds ±0.10°F, calibrate the portable device or return the PET to the supplier. The digital thermometer should be capable of field calibration.
 
 * Applications:
 
