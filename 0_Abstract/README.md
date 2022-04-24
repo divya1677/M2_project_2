@@ -20,3 +20,31 @@ The PET should be compared to a certified partial immersion thermometer on a dai
 2)Marine Applications: Digital thermometers with a high-temperature exhaust gas sensor as the temperature sensor can be used in marine applications for measuring the       local temperature.
 
 3)Industrial Applications: Digital thermometers are also used in power plants, nuclear power plants, blast furnaces, shipbuilding industries, etc. They can measure         temperature from -220⁰C to +850⁰C.
+
+ADVANTAGES:
+
+1.Temperatures may be read quickly and accurately using digital thermometers.
+
+2.They're small and portable, and you can even keep the thermometer in your backpack.
+
+3.It's simple to read the display.
+
+4.A digital thermometer is reasonably priced.
+
+5.They do not need any particular care.
+
+DISADVANTAGES:
+
+1.Digital thermometers have the disadvantage of having dead batteries.
+
+2.Submerging a conventional thermometer in warm, soapy water is simple, but doing it with a digital thermometer is more complicated.
+
+3.Some digital thermometers are more accurate than others.
+
+FUTURE SCOPE:
+
+The global Digital Thermometers market is anticipated to rise at a considerable rate during the forecast period 2021 to 2027. In 2021,
+
+CONCLUSION:
+
+The Digital Thermometer that we made is working properly with a good accuracy.
