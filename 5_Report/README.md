@@ -60,7 +60,10 @@ Hardware Requirements:
 
 SIMULIDE DESIGN
 ![SCHEMATIC DIAGRAM OF THERMOMETER](https://user-images.githubusercontent.com/94949861/164987270-832f70e4-d1f3-4257-af96-c5cfca1777da.jpg)
+
+
 DESCRIPTION OF COMPONENTS
+
 * MICROCONTROLLER
 8051 microcontroller is a 8 bit microcontroller which has 128 bytes of on chip RAM , 4K bytes of on chip ROM, two timers, one serial port and four 8bit ports. 8052 microcontroller is an extension of microcontroller. The table below shows the comparison of 8051 family members.
 
@@ -85,10 +88,11 @@ In electronics and electrical engineering, it is by convention we define a point
 4.A digital thermometer is reasonably priced.
 5.They do not need any particular care.
 
-* Disadvantage: 
+* Disadvantages: 
 1.Digital thermometers have the disadvantage of having dead batteries.
 2.Submerging a conventional thermometer in warm, soapy water is simple, but doing it with a digital thermometer is more complicated.
 3.Some digital thermometers are more accurate than others.
 
 FUTURE SCOPE
+
 The global Digital Thermometers market is anticipated to rise at a considerable rate during the forecast period 2021 to 2027. In 2021,
